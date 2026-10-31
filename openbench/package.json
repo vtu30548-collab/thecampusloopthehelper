@@ -1,0 +1,9 @@
+{
+  "name": "openbench",
+  "version": "1.0.0",
+  "description": "OpenBench - trusted sharing of underused campus spaces and equipment",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test/smoke.js" },
+  "engines": { "node": ">=22.5" },
+  "license": "MIT"
+}

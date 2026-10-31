@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: openbench
+    runtime: node
+    plan: free
+    buildCommand: echo "no build step - zero dependencies"
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: DEMO_MODE
+        value: "true"
